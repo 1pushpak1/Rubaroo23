@@ -394,8 +394,7 @@
 
 .testimonial {
   max-width: 400px;
-  margin-bottom: 100px;
-}
+  }
 .testimonial-avatar {
   margin-top: 25px;
 }
@@ -1182,7 +1181,7 @@ body {
 .containerwidth {
   width: 96%;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 10%;
   margin-right: 2%;
 }
 
