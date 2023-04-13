@@ -394,6 +394,7 @@
 
 .testimonial {
   max-width: 400px;
+  margin-bottom: 100px;
 }
 .testimonial-avatar {
   margin-top: 25px;
@@ -1164,5 +1165,74 @@ body {
 
 
 
-
+.parallax {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/Flyer\ \(2\).png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*slide show*/
+
+
+.containerwidth {
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+  box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+}
+
+.toggle,
+.content {
+  font-family: "Poppins", sans-serif;
+}
+
+.toggle {
+  width: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #111130;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.content {
+  position: relative;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 30px;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+
+
+
+
