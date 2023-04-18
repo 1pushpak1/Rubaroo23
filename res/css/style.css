@@ -1538,7 +1538,7 @@ input[type=number]::-webkit-outer-spin-button {
 .slider {
   position: relative;
   width: 100%;
-  height: 69.1%;
+  height: 76%;
   background-color: rgba(255, 255, 255, 0.9);
   overflow: hidden;
 }
