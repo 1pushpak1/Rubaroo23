@@ -2367,6 +2367,23 @@ section.pull-up {
   color: #66b772!important
 }
 
+
+.new{
+  
+    background-color: #FE8020;
+    color: #FFFFFF;
+    display:inline;
+    white-space:pre-wrap;
+    line-height : 24px;
+    font-size: 18px;
+    font-family:arial, sans-serif;
+    padding: 5px;
+    padding-left:0px;
+    box-shadow: -16px 0 0 #FE8020; /* box shadow is emulating padding liek a charme */
+
+
+}
+
 .text-hover-orange:focus,
 .text-hover-orange:hover {
   color: #ff7e5b!important
