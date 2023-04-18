@@ -433,3 +433,6 @@ document.addEventListener("click", function(e) {
   // if(direction === "next") slider.next()
   // if(direction === "prev") slider.prev()
 })  
+
+
+
