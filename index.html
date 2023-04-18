@@ -43,6 +43,12 @@
 </head>
 
 <body id="page-top">
+  <script>
+    document.addEventListener("contextmenu", (event) => {
+       event.preventDefault();
+    });
+ </script>
+
   <!-- Navigation Start -->
   <nav id="navigation" class="navbar navbar-fixed-top">
     <div class="container">
@@ -419,7 +425,32 @@
   </section>
 
 
-
+  <div class="slider" style="background-image: url('../res/images/demo1.png') ;">
+    <ul class="slider-list">
+      <li class="slider-item">
+        <img src="./res/images/events/g1.png" />
+      </li>
+      <li class="slider-item">
+        <img src="./res/images/events/g2.png" />
+      </li>
+      <li class="slider-item">
+        <img src="./res/images/events/g4.png" />
+      </li>
+      <li class="slider-item">
+        <img src="./res/images/events/4.png" />
+      </li>
+      <li class="slider-item">
+        <img src="./res/images/events/g5.png" />
+      </li>
+     
+    </ul>
+  <!--   <button class="action-button left-chevron" data-toggle="slider-action" data-direction="prev">
+      &lsaquo;
+    </button>
+    <button class="action-button right-chevron" data-toggle="slider-action" data-direction="next">
+      &rsaquo;
+    </button> -->
+  </div>
   
   <!-- //Section - Parallax banner end -->
   <div class="parallax">
