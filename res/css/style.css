@@ -1693,6 +1693,6 @@ input[type=number]::-webkit-outer-spin-button {
   top: 82%;
   margin-left: 50%;
   transform: translate(-50%, -100%);
-  font: size 3px;
+  font-size: 18px;
   font-weight: 600;
 }
